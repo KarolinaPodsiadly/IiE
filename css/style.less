@@ -633,12 +633,43 @@ body #about-iie .container a, body #contact .container a, body #opinions .contai
         }
     }
 }
+     @media (max-width: 767.98px) {
+         body {
+             overflow-x: hidden;
+         }
+         a.syllabus.aos-init.aos-animate {
+             display: block;
+             margin: 20px !important;
+         }
+         body #about-iie .container a, body #contact .container a, body #opinions .container a, body #slogan .container a, html #about-iie .container a, html #contact .container a, html #opinions .container a, html #slogan .container a {
+             line-height: inherit;
+         }
+         body main, html main {
+            background-size: 100%;
+            background-position: top;
+            height: 250px;
+        }
+         body #slogan h3, html #slogan h3 {
+             font-size: 36px !important;
+         }
+         body #about-iie .container, body #contact .container, body #opinions .container, body #slogan .container, html #about-iie .container, html #contact .container, html #opinions .container, html #slogan .container {
+            padding: 50px 15px;
+        }
+         body #about-iie .container h3, body #contact .container h3, body #opinions .container h3, body #slogan .container h3, html #about-iie .container h3, html #contact .container h3, html #opinions .container h3, html #slogan .container h3, #testimonials h2 {
+             font-size: 45px;
+         }
+         body main .scroll-btn, html main .scroll-btn {
+             display: none;
+         }
+         .navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
+             padding: 0 15px;
+         }
+     }
 /*******************************************************/
  @main-color: #e6bd9d;
  #google-map {
      position: relative;
      padding-bottom: 75%;
-     // This is the aspect ratio height: 0;
      overflow: hidden;
 }
  #google-map iframe {
